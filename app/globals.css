@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@400;500;600;700;800&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #070a0f;
+  --surface: #0d1117;
+  --surface2: #131820;
+  --border: #1c2530;
+  --border2: #253040;
+  --text: #c8d6e8;
+  --text-dim: #4a6280;
+  --text-mute: #2a3d54;
+  --accent: #0096ff;
+  --accent-dim: #003d6b;
+  --amber: #f59e0b;
+  --amber-dim: #3d2700;
+  --red: #ef4444;
+  --red-dim: #3d0a0a;
+  --green: #22c55e;
+  --green-dim: #0a2d18;
+  --mono: 'IBM Plex Mono', monospace;
+  --display: 'Bebas Neue', sans-serif;
+  --sans: 'Syne', sans-serif;
+}
+
+html, body { height: 100%; background: var(--bg); color: var(--text); font-family: var(--sans); overflow: hidden; }
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
